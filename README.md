@@ -117,17 +117,3 @@ Through this project I practised:
 - File metadata management
 - Linked-list-based file records
 
-## Author
-
-Samiha Suha
-
-Computer Science Major | Cybersecurity Major | IoT Minor
-
-Queensland University of Technology (QUT)
-
-## Related Projects
-
-- Basic Calculator (C)
-- TCP Client-Server Application (C)
-- Elevator Management System (C)
-- File Management System (C)
