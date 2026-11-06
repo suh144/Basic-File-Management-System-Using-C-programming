@@ -1,44 +1,53 @@
 # Basic-File-Management-System-Using-C-programming
 # File Management System (C)
 
-A command-line File Management System developed in C.
+A menu-driven file management system developed in C that allows users to create, write, read, rename, inspect, and delete files directly from the command line.
 
-This project allows users to create, write, read, rename, inspect, and delete files through a menu-driven interface. The goal of the project was to practise file handling, functions, strings, and user interaction in C while building a simple real-world utility.
+This project was developed to strengthen fundamental systems programming concepts including file handling, string manipulation, modular program design, error handling, and user interaction. It serves as a stepping stone toward more advanced operating systems and systems programming topics.
 
 ## Features
 
-- Create new files
-- Write text to files
-- Read file contents
-- Rename existing files
-- Display file information (size)
-- Delete files with confirmation
-- Menu-driven interface
-- Error handling for missing files
+✅ Create new files
+
+✅ Write text to files
+
+✅ Read file contents
+
+✅ Rename existing files
+
+✅ Display file information (file size)
+
+✅ Delete files with confirmation
+
+✅ Error handling for missing files
+
+✅ Menu-driven user interface
 
 ## Technologies Used
 
 - C Programming Language
+- GCC Compiler
 - Standard C Library
 - File I/O Functions
-- GCC Compiler
 - Code::Blocks IDE
 
 ## Concepts Demonstrated
 
-This project demonstrates:
-
 - Functions
 - Arrays
 - Strings
-- File I/O
+- File Input/Output
 - User Input Validation
 - Modular Program Design
 - Error Handling
+- Menu-Driven Applications
 
-## Menu
+## Example Menu
 
 ```text
+=================================
+      File Management System
+=================================
 1. Create File
 2. Write to File
 3. Read File
@@ -48,43 +57,47 @@ This project demonstrates:
 7. Exit
 ```
 
-## Example Usage
+## Example Workflow
 
 ```text
-===== File Management System =====
-
-1. Create File
-2. Write to File
-3. Read File
-4. Delete File
-5. Rename File
-6. File Information
-7. Exit
-
 Enter choice: 1
 Enter file name: notes.txt
 
 File created successfully.
+
+Enter choice: 2
+Enter file name: notes.txt
+Enter text: Learning C for systems programming
+
+Data written successfully.
+
+Enter choice: 3
+Enter file name: notes.txt
+
+===== File Contents =====
+Learning C for systems programming
 ```
 
 ## Project Structure
 
 ```text
-FileManagementSystem/
+file-management-system-c/
 │
-├── main.c
+├── file_system.c
 ├── README.md
 ```
 
 ## How to Compile
 
-Using GCC:
+### GCC
 
 ```bash
-gcc main.c -o filemanager
+gcc file_system.c -o filemanager
 ```
 
-Run:
+### Run
+
+Linux/macOS:
 
 ```bash
 ./filemanager
@@ -100,20 +113,22 @@ filemanager.exe
 
 Through this project I practised:
 
-- Creating and managing files using C
-- Reading and writing data to files
+- Creating and managing files in C
+- Reading and writing data using file streams
 - Using string manipulation functions
-- Organising programs using functions
-- Building menu-driven applications
+- Building modular applications with functions
+- Developing menu-driven systems
+- Handling user input and file errors
 - Using Git and GitHub for version control
 
 ## Future Improvements
 
-- Search for files
-- Password-protected files
-- Directory listing
+- File search functionality
 - File copy functionality
-- Dynamic memory allocation (malloc and free)
-- File metadata management
+- Directory listing support
+- Dynamic memory allocation using malloc/free
 - Linked-list-based file records
+- File metadata tracking
+- Password-protected files
+- Multi-directory navigation
 
